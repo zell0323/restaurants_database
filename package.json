@@ -1,0 +1,36 @@
+{
+  "name": "restaurants",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "seed": "node models/seeds/restaurantsSeeder.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "connect-flash": "^0.1.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.16.4",
+    "express-handlebars": "^6.0.7",
+    "express-session": "^1.17.3",
+    "method-override": "^3.0.0",
+    "mongoose": "^6.8.2",
+    "passport": "^0.6.0",
+    "passport-facebook": "^3.0.0",
+    "passport-local": "^1.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zell0323/restaurants.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zell0323/restaurants/issues"
+  },
+  "homepage": "https://github.com/zell0323/restaurants#readme"
+}

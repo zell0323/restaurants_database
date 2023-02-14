@@ -1,0 +1,8 @@
+<div class="container m-auto">
+<form action="/restaurants" method="POST">
+      {{#each objects}}
+    <input type="text" style="display: block; width: 50%;" placeholder={{@key}} name={{@key}} required>
+    {{/each}}
+    <button class="btn btn-success" type="submit">Create</button>
+ </form>
+</div>
